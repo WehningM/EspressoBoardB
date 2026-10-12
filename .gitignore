@@ -1,0 +1,32 @@
+# --- KiCad: automatic backups, local history, locks, caches ---
+*-backups/
+.history/
+~*.lck
+*.lck
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+\#auto_saved_files\#
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bak-*
+*.kicad_sch.bak*
+*.kicad_pcb.bak*
+
+# --- Generated fabrication output (re-create from the JLCPCB Tools plugin) ---
+**/jlcpcb/gerber/
+**/jlcpcb/production_files/
+*.zip
+
+# --- Gaphor model backups ---
+*.gaphor.bak*
+
+# --- OS / editor clutter ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+*.tmp
